@@ -10,11 +10,12 @@ int main()
     cout << "Ingrese otro numero" << endl;
     cin>>b;
     float num=a/b;
-    if( (num + 0.5) >= (int(num) + 1) )
-    cout << "El resultado redondeado es:  " << int(num)+1<<endl;
-    else
-    cout <<"El resultado redondeado es:  " << int(num)<<endl;
-
+    if( (num + 0.5) >= (int(num) + 1) ){
+        cout << "El resultado redondeado es:  " << int(num)+1<<endl;
+    }
+    else{
+        cout <<"El resultado redondeado es:  " << int(num)<<endl;
+    }
 
     return 0;
 }
